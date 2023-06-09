@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Roboto+Slab:wght@900&family=Roboto:wght@300&display=swap');
+
+header, footer {
+	background-color:#cdff93ff;
+	padding: 10px;
+} 
+
+main {
+	background-color:#edddc5;
+	padding: 10px;
+}
+
+.post {
+	background-color: #b5f09c;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.post img {
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.footer-columns {
+	display: flex;
+}
+
+.footer-column {
+	flex: 50%;
+	margin: 20px;
+}
+
+.comment {
+	background-color: #98ff81ff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.author {
+	font-size: 20px;
+	color: #00264fff;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.data {
+	color: silver;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#sub-comment {
+	margin-left: 20px;
+}
+
+#menu {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	z-index: 10;
+}
+
+#menu ul {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu > ul::after {
+	display: block;
+	width: 100%;
+	height: auto;
+	clear: both;
+	content: "";
+}
+
+#menu ul li {
+	position: relative;
+	display: block;
+	width: auto;
+	height: auto;
+	float: left;
+}
+
+#menu ul li a {
+	display: block;
+	padding: 10px 25px 0px 25px;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 35px;
+	box-sizing: border-box;
+	line-height: 10px;
+	color: black; 
+} 	
+
+#menu ul li ul {
+	position: absolute;
+	top: 35px;
+	display: none;
+	width: 200px;
+	background-color: #044622ff;
+}
+
+#menu ul li:hover ul {
+	display: block;
+}
+
+#menu ul li ul li {
+	float: none;
+	width: 100%
+}
+
+#menu ul li ul li a {
+	display: block;
+	text-transform: none;
+	height: auto;
+	padding: 7px 25px;
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 1px #000000ff;
+	color:#000000ff	
+}
+
+#menu ul li ul li:first-child a{
+	border-top: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Roboto', 'Roboto+Slab';
+	font-weight: 600;
+}
+
+p {
+	font-family: 'Roboto+Slab', 'Roboto';
+	font-weight: 300;
+}
+
+a {
+	font-family: 'Roboto+Slab', 'Roboto';
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+#menu2 ul li a {
+	color:#000000ff;
+}
+
+#img1 {
+	height: 250px;
+	width: 20%;
+	float: right;
+	position: center;
+}
+
+#img2 {
+	height: 150px;
+	width: 13%;
+	float: right;
+}
